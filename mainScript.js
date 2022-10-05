@@ -3,9 +3,9 @@ var bonusDegree = 0;
 const MAX_BONUS_IMAGES = 3;
 const MAX_GALLERY_IMAGES = 4;
 const galleryCaptions = ["Winning a 5K for the first time!", "Percé, Québec","Sleeping Giant Provincial Park, ON", "10k race in Bucherville, QC, by Michel JODOIN"];
-const galleryPaths = ["contact.jpg", 
+const galleryPaths = ["contact.JPG", 
 "qc.jpeg",
-"on.jpeg",
+"ON.jpeg",
  "10k.jpeg"];
 
  const bonusCaptions = ["IEEE launching campaign in 2017", "ECSE 223, Model Based Programming after a live demo", "Google Developers Roadshow MENA 2017"];
