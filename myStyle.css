@@ -119,16 +119,7 @@ position: absolute;
     float:left;
     border-radius: 1.6rem;
 }
-/*@media (max-width: 950px) {
-    .myCardLeft p {
-    width: 100%;
-    background-color: brown;
-    }
-    .android-app-img{
-        max-height: 25rem;
-    }
-}
- */
+
 @media (min-width: 950px) {
     .myCardRight {
         flex-direction: row;
@@ -350,9 +341,10 @@ body{
     }
  }
 
- @media (max-width: 650px) and (min-width: 400px) {
+ @media (max-width: 650px) and (min-width: 0px) {
     #contactBar {
         flex-wrap: wrap;
+        position: static;
         flex-flow: row wrap;
     }
  }
@@ -497,6 +489,7 @@ left: 0;
     }
  }
 
+
 #bonusFeatures {
     list-style-type: disc;
     -webkit-margin-before: 1em;
@@ -512,6 +505,5 @@ figcaption {
     opacity: 0.92;
     -webkit-transform: scale(1.05);
 	transform: scale(1.05);
-   /* filter: blur(1px); */
     transition: all 0.5s;
 }
