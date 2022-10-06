@@ -347,9 +347,6 @@ body{
         flex-flow: row wrap;
         position: relative;
     }
-    #gallery {
-        height: 60rem;
-    }
 
  }
 #gallery {
@@ -478,7 +475,7 @@ left: 0;
     #bonus {
         flex-direction: column;
         justify-content: center;
-        max-width: 40%;
+        max-width: 70%;
         max-height: fit-content;
     }
     #bonus-img-wrapper {
