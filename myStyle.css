@@ -341,11 +341,12 @@ body{
     }
  }
 
- @media (max-width: 650px) and (min-width: 0px) {
+ @media (max-width: 649px) and (min-width: 0px) {
     #contactBar {
         flex-wrap: wrap;
-        position: static;
         flex-flow: row wrap;
+        position: relative;
+
     }
  }
 #gallery {
