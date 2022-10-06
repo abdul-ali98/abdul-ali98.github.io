@@ -346,8 +346,11 @@ body{
         flex-wrap: wrap;
         flex-flow: row wrap;
         position: relative;
-        background-color: #4e54c8;
     }
+    #gallery {
+        height: 60rem;
+    }
+
  }
 #gallery {
     justify-content: center;
